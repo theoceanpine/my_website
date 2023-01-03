@@ -1,0 +1,70 @@
+.hero {
+    background-color:#1F2937;
+    color:#ffffff;
+    
+    
+}
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.flex-container {
+    display: flex;
+    
+}
+.top {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+    padding: 20px;
+    
+}
+
+.about, .videos, .listen {
+    margin: 10px 100px 10px 10px;
+    padding: 10px;
+    border: 1px solid white;
+   
+}
+
+.header {
+    margin-right: auto;
+    margin-left: 64px;
+    margin-top: 10px;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin-left: 100px;
+}
+h3 {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: lighter;
+    margin-left: 100px;
+    margin-top: -30px;
+}
+.button {
+    margin-left: 100px;
+    align-self: flex-start;
+
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    border-color: #3882F6;
+    
+}
+
+.image {
+    margin-left: 300px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    
+
+}
+
+
