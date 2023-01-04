@@ -1,8 +1,7 @@
 .hero {
     background-color:#1F2937;
     color:#ffffff;
-    
-    
+    margin: -30px -10px 0px -10px;
 }
 .main {
     display: flex;
@@ -72,6 +71,15 @@ h2 {
     text-align: center;
 }
 
+h6{
+    text-align: center;
+    font-weight: bold;
+    margin-top: -30px;
+    margin-bottom: 5px;
+    font-style: normal;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+}
 .work {
     max-width: 200px;
 }
@@ -84,6 +92,7 @@ h2 {
     margin-left: 50px;
     margin-right: 50px;
     font-family: Courier New;
+    text-align: justify;
 }
 .images {
     border-radius: 5px;
@@ -96,6 +105,7 @@ h2 {
 .low-mid{
     display: flex;
     flex-direction: column;
+    margin: 0px -10px 0px -10px;
     background-color: #E5E7EB;
     color: #1F2937;
     font-style: italic;
@@ -105,7 +115,56 @@ h2 {
 
 }
 .call {
+    
     background-color: #3882F6;
     border-radius: 5px;
+    color:#ffffff;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+h4 {
+    margin-bottom: 0px;
+    padding-top: -10px;
+    margin-top: 0px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button2 {
+    margin-left: 200px;
+    margin-right: 50px;
+    margin-top: -50px;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family:'Courier New', Courier, monospace;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+}
+
+footer{
+    background-color:#1F2937;
+    color: #F9FAF8;
+    font-weight: lighter;
+    font-family:'Courier New', Courier, monospace;
+    margin: -10px;
+    
+}
+
+h5 {
+    text-align: center;
+    padding: 30px;
     
 }
